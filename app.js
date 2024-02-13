@@ -23,9 +23,10 @@ const admin=require('./routes/admin/index.routes');
 
 
 
+
 async function main() {
   await mongoose.connect(process.env.MONGO_DB_URL);
-  console.log(process.env.MONGO_DB_URL)
+  // console.log(process.env.MONGO_DB_URL)
 }
 main()
   .then(() => console.log("db is connected"))

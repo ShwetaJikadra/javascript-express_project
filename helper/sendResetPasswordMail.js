@@ -16,7 +16,7 @@ const sendResetPasswordMail=async (fname,email,resetToken)=>{
                 requireTLS:true,
                 auth:{
                     user:process.env.GMAIL_USER,
-                    pass:"ghfsxjbnnbxfjiyc"
+                    pass:"xxxxxx"
                 }
             });
             const mailOptions=
